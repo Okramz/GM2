@@ -1,0 +1,338 @@
+<!doctype html>
+
+<html lang="it">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gusto Madre</title>
+    <link rel="icon" type="image/x-icon" href="immagini/logo piccolo gm.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d66cfff07b.js" crossorigin="anonymous"></script>
+
+  </head>  
+
+
+
+  <body>
+  
+    <!--navbar gustomadre, logo, menu, shop, contatti, lingue-->
+     <div>
+    
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+
+          <a class="navbar-brand" href="#"><img class="immagine-logo" src="immagini/logo-full.png" alt="scritta-gusto-madre"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-book-open"></i>   Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i>   Shop</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-regular fa-address-book"></i>   Contatti </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Telefono</a></li>
+                  <li><a class="dropdown-item" href="#">Mail</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Prenota</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        
+    </div>
+
+
+
+  
+
+    <!--carosello landing page (pizza, locale, birre, carta vini)-->
+  <div>
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="immagini/logo gigante gm.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="immagini/localenuovo7.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block mx-auto">
+            <h4>Novità!</h4>
+            <p>La nostra pasticceria fresca</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="immagini/localenuovo8.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block mx-auto">
+            <h4>Nuovo stile!</h4>
+            <p>Locale appena ristrutturato pronto per accogliervi</p>
+            </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </div>
+
+  
+
+
+  <!--sezione 3 card (chef, pizza contemporanea, pasticceria)-->
+
+  <div class="container-fluid">
+ <div class="row">
+    <div class="card col" style="width: 18rem;">
+      <img src="immagini/boss.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">L’incontro con il Lievito Madre in tutte le sue sfumature e i suoi utilizzi, fa innamorare perdutamente lo Chef. Pizza e pane in particolare, tanto da volercisi dedicare totalmente, tanto da decidere di rivoluzionare il suo percorso professionale. Nasce così una ricca carta di pizze molto diverse tra loro.
+
+        </p>
+      </div>
+    </div>
+    <div class="card col" style="width: 18rem;">
+      <img src="immagini/sofficepatanegra.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Gusto Madre è la ricerca del gusto primordiale. È avere cura degli ingredienti che madre natura ci dona, contaminarli il meno possibile per preservarne il sapore originale. Gusta i nostri 6 impasti di pizza contemporanea.
+
+        </p>
+      </div>
+    </div>
+    <div class="card col" style="width: 18rem;">
+      <img src="immagini/sottobosco.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">La carta dei dolci Gusto Madre vi conquisterà al primo assaggio grazie alla bontà sopraffina, alla maestria con cui vengono realizzati, al connubio perfetto di consistenze diverse e abbinamenti innovativi: un’esplosione di Gusto per le vostre papille.
+
+        </p>
+      </div>
+    </div>
+  </div>
+    
+  </div>
+
+
+  <!--sezione impasti-->
+
+  <div class="container-fluid text-center mt-46 titolo-impasti">
+<h1><i class="fa-solid fa-caret-left"></i>Scopri i nostri formati<i class="fa-solid fa-caret-right"></i></h1>
+  </div>
+  
+ 
+  <div class="gallery" >
+<img class="image" src="immagini/p-classica.jpg" alt="">
+<img class="image" src="immagini/p-autentica.jpg" alt="">
+<img class="image" src="immagini/fotobufalo.jpeg" alt="">
+<img class="image" src="immagini/p-croccante.jpg" alt="">
+<img class="image" src="immagini/p-friabile.jpg" alt="">
+<img class="image" src="immagini/p-soffice.jpg" alt="">
+
+
+  </div>
+
+ <div class="container-fluid  lista-impasti">
+  <div class="row">
+    <div class="col m-lg-2">
+    <h1 id="name">Sei Classica</h1>
+  </div>
+  <div class="col m-lg-2">
+    <h1 id="name" >Sei Autentica</h1>
+  </div>
+  <div class="col m-lg-2">
+    <h1 id="name">Sei Burger</h1>
+  </div>
+  <div class="col m-lg-2">
+    <h1 id="name">Sei Croccante</h1>
+  </div>
+  <h1 class="col m-lg-2">
+    <p id="name">Sei Friabile</p>
+  </h1>
+  <div class="col m-lg-2">
+    <h1 id="name">Sei Soffice</h1>
+  </div>
+
+  </div>
+  </div>
+      
+      
+
+
+
+
+  
+  <!--sezione 3 card (orari, contatti)-->
+
+<!--====== CONTACT ONE PART START ======-->
+<section class="contact-area">
+  <div class="container">
+     <div class="row">
+        <div class="col-xl-7 col-lg-8">
+           <div class="section-title mt-45">
+              <h3 class="title"> VUOI PRENOTARE UN TAVOLO O RICEVERE INFORMAZIONI
+                SU EVENTI E NEWS?</h3>
+           </div>
+           <div class="contact-form form-style-four mt-15">
+              <form action="#">
+                 <div class="row">
+                    <div class="col-md-6">
+                       <div class="form-input mt-15">
+                          <h3>Nome e Cognome</h3>
+                          <div class="input-items default">
+                             <i class="lni lni-user"></i>
+                             <input type="text" placeholder="Mario Rossi" />
+                          </div>
+                       </div>
+                       <!-- form input -->
+                    </div>
+                    <div class="col-md-6">
+                       <div class="form-input mt-15">
+                          <h3>Indirizzo Email</h3>
+                          <div class="input-items default">
+                             <i class="lni lni-envelope"></i>
+                             <input type="text" placeholder="admin@uideck.com" />
+                          </div>
+                       </div>
+                       <!-- form input -->
+                    </div>
+                    <div class="col-md-6">
+                       <div class="form-input mt-15">
+                          <h3>Numero di telefono</h3>
+                          <div class="input-items default">
+                             <i class="lni lni-phone"></i>
+                             <input type="text" placeholder="01234567890" />
+                          </div>
+                       </div>
+                       <!-- form input -->
+                    </div>
+                    <div class="col-md-6">
+                       <div class="form-input mt-15">
+                          <h3>Oggetto</h3>
+                          <div class="input-items default">
+                             <i class="lni lni-bubble"></i>
+                             <input type="text" placeholder="Scrivi qui" />
+                          </div>
+                       </div>
+                       <!-- form input -->
+                    </div>
+                    <div class="col-md-12">
+                       <div class="form-input mt-15">
+                          <h3>Scrivi qui</h3>
+                          <div class="input-items default">
+                             <i class="lni lni-pencil-alt"></i>
+                             <textarea
+                                placeholder="Scrivi qui il tuo messaggio"
+                                ></textarea>
+                          </div>
+                       </div>
+                       <!-- form input -->
+                    </div>
+                    <div class="col-md-12">
+                       <div class="single-form mt-15">
+                          <div class="input-form rounded-buttons">
+                             <button
+                                class="btn primary-btn rounded-full"
+                                type="submit"
+                                >
+                             Invia
+                             </button>
+                          </div>
+                       </div>
+                       <!-- single form -->
+                    </div>
+                 </div>
+                 <!-- row -->
+              </form>
+           </div>
+           <!-- contact form -->
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8 offset-xl-1">
+           <div class="section-title mt-5">
+              <h3 class="title"><i class="fa-solid fa-clock"></i>        Orari</h3>
+           </div>
+           <div class="contact-info">
+              
+                    <div class="single-info">
+                       <div class="info-icon">
+                          <i class="lni lni-map-marker"></i>
+                       </div>
+                       <div class="info-content">
+                          <p class="text">
+                            <br>
+                            Tutti i giorni <br>
+                            19:00 - 23:00 <br><br>
+                            Sabato, Domenica <br>
+                            12:00 - 14:30 | 19:00 - 23:00 <br><br>
+                            Giorno di chiusura: martedì
+                          </p>
+                       </div>
+                    </div>
+            
+                
+           </div>
+           <!-- contact-info -->
+        </div>
+     </div>
+     <!-- row -->
+  </div>
+  <!-- container -->
+</section>
+<!--====== CONTACT ONE PART ENDS ======-->
+  
+  <!--footer con info, riconoscimenti, newsletter-->
+<div class="footer">
+  <div class="container-fluid text-center footer">
+<p class="footer">
+  <img class="logo-footer" src="immagini/logomaestripanettone.png" alt=""> <br>
+    
+    GUSTO MADRE S.N.C. <br>
+    <i class="fa-solid fa-map-location-dot"></i>   ALBA  Piazza Michele Ferrero,  2/A  12051 (CN) <br>
+    <i class="fa-solid fa-phone"></i>   0173.290915 <br>
+    <i class="fa-solid fa-envelope"></i>   alba@gustomadre.it <br>
+    P.iva/C.F.: 03620640049 - Privacy e Cookie Policy <br>
+    <i class="fa-brands fa-square-facebook"></i>     <i class="fa-brands fa-square-instagram"></i>
+    
+  </p>
+
+  </div>
+
+
+
+
+</div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+  </body>
+
+</html> 
